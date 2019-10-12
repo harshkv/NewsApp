@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="5dp"
+        app:contentPadding="4dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="190dp"
+                android:layout_height="140dp"
+                android:layout_gravity="fill"
+                android:layout_marginRight="10dp"
+                android:paddingTop="10dp"
+                app:srcCompat="@android:drawable/ic_menu_camera" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="wrap_content"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|fill_vertical"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_author"
+                android:layout_width="113dp"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:gravity="top"
+                android:paddingLeft="10dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_publishedAt"
+                android:layout_width="wrap_content"
+                android:layout_height="35dp"
+                android:layout_weight="1"
+                android:gravity="right|top"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textStyle="italic" />
+        </LinearLayout>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/card_view1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center"-->
+<!--        app:cardCornerRadius="4dp">-->
+
+
+
+<!--</androidx.cardview.widget.CardView>-->
+
+</LinearLayout>
