@@ -10,6 +10,6 @@ Images are loaded using Picasso.
 
 This Application is built using Android Studio and Java.
 
-![alt text](https://raw.githubusercontent.com/harshkv/The-News-App/master/sh1.png)
-![alt text](https://raw.githubusercontent.com/harshkv/The-News-App/master/sh2.png)
-![alt text](https://raw.githubusercontent.com/harshkv/The-News-App/master/sh3.png)
+![alt text](https://raw.githubusercontent.com/harshkv/NewsApp/master/sh1.png)
+![alt text](https://raw.githubusercontent.com/harshkv/NewsApp/master/sh2.png)
+![alt text](https://raw.githubusercontent.com/harshkv/NewsApp/master/sh3.png)
